@@ -1,4 +1,4 @@
-    Algorithms are the poetry of logic — visualizing them reveals the beauty behind the code."
+    "Algorithms are the poetry of logic — visualizing them reveals the beauty behind the code."
 
 
 
