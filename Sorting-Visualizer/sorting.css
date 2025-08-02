@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:ital,wght@0,100..900;1,100..900&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Quicksand", serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 40px;
+}
+
+nav{
+    position: sticky;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.github{
+    font-size: 15px;
+    color: white;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 45px;
+    border-radius: 8px;
+}
+
+button{
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-family: "Quicksand", serif;
+    background-color: #CC275B;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#reset-btn{
+    background-color: rgb(140, 60, 214);
+}
